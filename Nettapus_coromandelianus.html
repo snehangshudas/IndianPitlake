@@ -1,0 +1,48 @@
+<title>Replicated maxent model for Nettapus_coromandelianus</title>
+<CENTER><H1>Replicated maxent model for Nettapus_coromandelianus</H1></CENTER>
+<br> This page summarizes the results of 10 split-sample models for Nettapus_coromandelianus, created Sun Jul 07 22:19:03 IST 2019 using Maxent version 3.4.1.  The individual models are here: <a href = "Nettapus_coromandelianus_0.html">[0]</a> <a href = "Nettapus_coromandelianus_1.html">[1]</a> <a href = "Nettapus_coromandelianus_2.html">[2]</a> <a href = "Nettapus_coromandelianus_3.html">[3]</a> <a href = "Nettapus_coromandelianus_4.html">[4]</a> <a href = "Nettapus_coromandelianus_5.html">[5]</a> <a href = "Nettapus_coromandelianus_6.html">[6]</a> <a href = "Nettapus_coromandelianus_7.html">[7]</a> <a href = "Nettapus_coromandelianus_8.html">[8]</a> <a href = "Nettapus_coromandelianus_9.html">[9]</a><br>
+<br><HR><H2>Analysis of omission/commission</H2>
+The following picture shows the test omission rate and predicted area as a function of the cumulative threshold, averaged over the replicate runs.  The omission rate should be close to the predicted omission, because of the definition of the cumulative threshold.
+<br><img src="plots\Nettapus_coromandelianus_omission.png"><br>
+<br> The next picture is the receiver operating characteristic (ROC) curve for the same data, again averaged over the replicate runs.  Note that the specificity is defined using predicted area, rather than true commission (see the paper by Phillips, Anderson and Schapire cited on the help page for discussion of what this means).  The average test AUC for the replicate runs is 0.772, and the standard deviation is 0.012.
+<br><img src="plots\Nettapus_coromandelianus_roc.png"><br>
+<br><HR><H2>Pictures of the model</H2>
+The following two pictures show the point-wise mean and standard deviation of the 10 output grids.  Other available summary grids are <a href = "plots/Nettapus_coromandelianus_min.png">min</a>, <a href = "plots/Nettapus_coromandelianus_max.png">max</a> and <a href = "plots/Nettapus_coromandelianus_median.png">median</a>.<br><br>
+<a href = "plots/Nettapus_coromandelianus_avg.png"> <img src="plots/Nettapus_coromandelianus_avg.png" height=600></a>
+<a href = "plots/Nettapus_coromandelianus_stddev.png"> <img src="plots/Nettapus_coromandelianus_stddev.png" height=600></a>
+<br>
+<br><HR><H2>Response curves</H2>
+<br>These curves show how each environmental variable affects the Maxent prediction.
+The 
+curves show how the predicted probability of presence changes as each environmental variable is varied, keeping all other environmental variables at their average sample value. Click on a response curve to see a larger version.  Note that the curves can be hard to interpret if you have strongly correlated variables, as the model may depend on the correlations in ways that are not evident in the curves.  In other words, the curves show the marginal effect of changing exactly one variable, whereas the model may take advantage of sets of variables changing together.  The curves show the mean response of the 10 replicate Maxent runs (red) and and the mean +/- one standard deviation (blue, two shades for categorical variables).<br><br>
+<a href = "plots/Nettapus_coromandelianus_alt.png"> <img src="plots/Nettapus_coromandelianus_alt_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_1.png"> <img src="plots/Nettapus_coromandelianus_bio_1_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_12.png"> <img src="plots/Nettapus_coromandelianus_bio_12_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_14.png"> <img src="plots/Nettapus_coromandelianus_bio_14_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_15.png"> <img src="plots/Nettapus_coromandelianus_bio_15_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_18.png"> <img src="plots/Nettapus_coromandelianus_bio_18_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_2.png"> <img src="plots/Nettapus_coromandelianus_bio_2_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_3.png"> <img src="plots/Nettapus_coromandelianus_bio_3_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_8.png"> <img src="plots/Nettapus_coromandelianus_bio_8_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_9.png"> <img src="plots/Nettapus_coromandelianus_bio_9_thumb.png"></a>
+<br><br>In contrast to the above marginal response curves, each of the following curves represents a different model, namely, a Maxent model created using only the corresponding variable.  These plots reflect the dependence of predicted suitability both on the selected variable and on dependencies induced by correlations between the selected variable and other variables.  They may be easier to interpret if there are strong correlations between variables.<br><br>
+<a href = "plots/Nettapus_coromandelianus_alt_only.png"> <img src="plots/Nettapus_coromandelianus_alt_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_1_only.png"> <img src="plots/Nettapus_coromandelianus_bio_1_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_12_only.png"> <img src="plots/Nettapus_coromandelianus_bio_12_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_14_only.png"> <img src="plots/Nettapus_coromandelianus_bio_14_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_15_only.png"> <img src="plots/Nettapus_coromandelianus_bio_15_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_18_only.png"> <img src="plots/Nettapus_coromandelianus_bio_18_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_2_only.png"> <img src="plots/Nettapus_coromandelianus_bio_2_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_3_only.png"> <img src="plots/Nettapus_coromandelianus_bio_3_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_8_only.png"> <img src="plots/Nettapus_coromandelianus_bio_8_only_thumb.png"></a>
+<a href = "plots/Nettapus_coromandelianus_bio_9_only.png"> <img src="plots/Nettapus_coromandelianus_bio_9_only_thumb.png"></a>
+<br><HR><H2>Analysis of variable contributions</H2><br>
+The following table gives estimates of relative contributions of the environmental variables to the Maxent model.  To determine the first estimate, in each iteration of the training algorithm, the increase in regularized gain is added to the contribution of the corresponding variable, or subtracted from it if the change to the absolute value of lambda is negative.  For the second estimate, for each environmental variable in turn, the values of that variable on training presence and background data are randomly permuted.  The model is reevaluated on the permuted data, and the resulting drop in training AUC is shown in the table, normalized to percentages.  As with the variable jackknife, variable contributions should be interpreted with caution when the predictor variables are correlated.  Values shown are averages over replicate runs.<br>
+<br><table border cols=3><tr><th>Variable</th><th>Percent contribution</th><th>Permutation importance</th><tr align=right><td>alt</td><td>29.4</td><td>22.9</td></tr><tr align=right><td>bio_12</td><td>28.4</td><td>16.3</td></tr><tr align=right><td>bio_3</td><td>18.1</td><td>15.9</td></tr><tr align=right><td>bio_1</td><td>5.9</td><td>7.3</td></tr><tr align=right><td>bio_18</td><td>5.5</td><td>9.7</td></tr><tr align=right><td>bio_9</td><td>4.1</td><td>6.7</td></tr><tr align=right><td>bio_2</td><td>2.8</td><td>3.1</td></tr><tr align=right><td>bio_14</td><td>2.7</td><td>6.9</td></tr><tr align=right><td>bio_15</td><td>2.5</td><td>7.4</td></tr><tr align=right><td>bio_8</td><td>0.6</td><td>3.8</td></tr></table><br><br>
+The following picture shows the results of the jackknife test of variable importance.  The environmental variable with highest gain when used in isolation is alt, which therefore appears to have the most useful information by itself.  The environmental variable that decreases the gain the most when it is omitted is alt, which therefore appears to have the most information that isn't present in the other variables.  Values shown are averages over replicate runs.<br>
+<br><img src="plots\Nettapus_coromandelianus_jacknife.png"><br>
+<br>The next picture shows the same jackknife test, using test gain instead of training gain.  Note that conclusions about which variables are most important can change, now that we're looking at test data.
+<br><img src="plots\Nettapus_coromandelianus_jacknife_test.png"><br>
+<br>Lastly, we have the same jackknife test, using AUC on test data.
+<br><img src="plots\Nettapus_coromandelianus_jacknife_auc.png"><br>
+<br><HR><br>Command line to repeat this species model: java density.MaxEnt nowarnings noprefixes -E "" -E Nettapus_coromandelianus responsecurves jackknife outputdirectory=F:\Nettapus_Output "samplesfile=F:\Cotton Teal\user_processed_occs.csv" environmentallayers=F:\Current_CT randomseed skipifexists randomtestpoints=30 replicates=10 replicatetype=subsample writebackgroundpredictions addallsamplestobackground writeplotdata nooutputgrids appendtoresultsfile maximumiterations=5000<br>
